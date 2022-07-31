@@ -1,0 +1,343 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+/*----------------------------*/
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: #333332;
+    font-family: Lora, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+}
+
+.skill-set li:hover {
+    background: #3498db;
+}
+
+h1 {
+    color: rgba(0,0,0,.75);
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.left {
+
+    border-right: 1px solid rgba(0,0,0,.05);
+    height: 100%;
+    min-width: 256px;
+    position: relative;
+    
+    float:left;
+    background-color:aquamarine;
+}
+
+.right {
+   
+    float: right;
+    height: 100%;
+    position: relative;
+    width: 66.66%;
+}
+
+
+.name-hero {
+    margin-top:300px;
+    background: rgba(0,0,0,.001);
+    height: 290px;
+    margin-left: -50%;
+    position: relative;
+ 
+   
+    width: 150%;
+
+}
+
+.me-img {
+    background: url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center;
+    background-size: 100%;
+    background-position: 0px;
+    border-radius: 100%;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+}
+
+.name-hero h1 {
+    font-family: Open Sans, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+    .name-hero h1 em {
+        color: rgba(0,0,0,.3);
+        font-style: normal;
+        font-weight: 700;
+    }
+
+.name-hero p {
+    color: rgba(0,0,0,.75);
+    font-size: .75em;
+    line-height: 1.5;
+    margin: 0 8px 0 0;
+    text-align: center;
+}
+
+.name-hero .name-text {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 975px;
+    padding: 3em;
+}
+
+    .inner h1 {
+        font-size: 1.75em;
+    }
+
+    .inner p {
+        color: rgba(0,0,0,.5);
+    }
+
+        .inner p em {
+            color: rgba(0,0,0,1);
+            font-style: normal;
+        }
+
+    .inner section {
+        margin: 100px auto;
+    }
+
+ul {
+    list-style-type: none;
+    margin-top: -10px;
+    max-width: 570px;
+    padding: 0;
+}
+
+.skill-set li {
+    background: rgba(0,0,0,.75);
+    border-radius: 5px;
+    color: #FFF;
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px 0 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 48em) {
+    .right, .left {
+     
+        position: relative !important;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .handmade {
+        text-align: center !important;
+        margin-top: 0px !important;
+    }
+
+    @media screen and (max-width: 75em) {
+        body {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 60em) {
+        body {
+            font-size: 14px;
+        }
+    }
+
+    .clearfix:after {
+        content: " "; /* Older browser do not support empty content */
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+    .handmade {
+        text-align: right;
+        margin-top: 100px;
+    }
+
+        .handmade em {
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 1.25em;
+            margin-left: 5px;
+        }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif
+}
+
+
+
+.card {
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.255);
+    border: none;
+    
+}
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+  
+}
+
+.num {
+    color: #eee !important;
+}
+
+.line {
+    color: #fff;
+}
+
+.neo-button:active {
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.255);
+}
+
+
+
+.profile_button {
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: 0 !important;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,.255);
+}
+
+
+.social a {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {
+    background: #191919;
+    color: #fff;
+}
+.vk a:hover {
+    background: #5d84ae;
+    color: #fff;
+}
+.telegram a:hover {
+    background: #249bd7;
+    color: #fff;
+}
