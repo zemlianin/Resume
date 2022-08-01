@@ -106,10 +106,9 @@ h1 {
 
 .left {
    
-    height: 100%;
-    min-width: 256px;
-    width:20%;
     
+    min-width: 256px;
+
     float:left;
    
 }
@@ -132,27 +131,35 @@ h1 {
     z-index: -10;
     float:left;
 }
-.name-hero {
-    margin-top:300px;
-    background: rgba(0,0,0,.001);
-    height: 290px;
-    margin-left: -50%;
-    position: sticky;
- 
-   
-    width: 150%;
-
+@media screen and (min-width: 1024px) {
+    .name-hero {
+        margin-left: -5%;
+        background: rgba(0,0,0,.001);
+        height: 10%;
+        top: 9%;
+        position: sticky;
+        width: 110%;
+    }
 }
-
+@media screen and (max-width: 1024px) {
+    .name-hero {
+        margin-left: -5%;
+        background: rgba(0,0,0,.001);
+        height: 10%;
+        top: 9%;
+        position: relative;
+        width: 110%;
+    }
+}
 .me-img {
     background: url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center;
     background-size: 100%;
     background-position: 0px;
     border-radius: 100%;
-    height: 150px;
+    height: 120px;
     margin: 0 auto;
     position: relative;
-    width: 150px;
+    width: 120px;
 }
 
 .name-hero h1 {
@@ -222,7 +229,7 @@ ul {
     font-size:80%
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 80em) {
     .right, .left {
      
         position: relative !important;
@@ -230,10 +237,7 @@ ul {
         min-height: 500px;
     }
 
-    .handmade {
-        text-align: center !important;
-        margin-top: 0px !important;
-    }
+    
 
     @media screen and (max-width: 75em) {
         body {
@@ -254,17 +258,6 @@ ul {
         height: 0;
         clear: both;
     }
-
-    .handmade {
-        text-align: right;
-        margin-top: 100px;
-    }
-
-        .handmade em {
-            font-family: 'Shadows Into Light', cursive;
-            font-size: 1.25em;
-            margin-left: 5px;
-        }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
@@ -298,46 +291,34 @@ ul {
    /* width:10px;*/
 }
 
-.neo-button:active {
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.255);
-}
-
-
-
-.profile_button {
-    color: #fff;
-    padding: 10px;
-    border: none;
-    outline: 0 !important;
-    border-radius: 50px;
-    background-color: rgba(0,0,0,.255);
-}
-
 
 .social a {
     text-align: center;
     width: 40px;
     height: 40px;
-    float: left;
     background-color: #fff;
+    float:left;
     border: 1px solid rgba(0,0,0,.75);
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
     border-radius: 50%;
-    margin: 0 16% 10px 0;
+    margin: 0 7% 10px 0;
     padding: 6px;
     color: #000;
 }
 .github a:hover {
     background: #191919;
-    color: #fff;
 }
-.vk a:hover {
-    background: #5d84ae;
+.whatsapp a:hover {
+    background: #25D366;
     color: #fff;
 }
 .telegram a:hover {
     background: #249bd7;
+    color: #fff;
+    
+}
+.linkedin a:hover {
+    background: #0A66C2;
     color: #fff;
 }
 
