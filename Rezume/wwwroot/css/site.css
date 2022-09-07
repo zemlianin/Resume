@@ -108,7 +108,7 @@ h1 {
    
     
     min-width: 256px;
-
+    
     float:left;
    
 }
@@ -131,17 +131,16 @@ h1 {
     z-index: -10;
     float:left;
 }
-@media screen and (min-width: 1024px) {
+
     .name-hero {
-        margin-left: -5%;
+      /*  margin-left: -60%;*/
         background: rgba(0,0,0,.001);
-        height: 10%;
-        top: 9%;
-        position: sticky;
-        width: 110%;
+       margin:2px 7px 8px;
+       
+        
     }
-}
-@media screen and (max-width: 1024px) {
+
+/*@media screen and (max-width: 1024px) {
     .name-hero {
         margin-left: -5%;
         background: rgba(0,0,0,.001);
@@ -150,7 +149,7 @@ h1 {
         position: relative;
         width: 110%;
     }
-}
+}*/
 .me-img {
     background: url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center;
     background-size: 100%;
@@ -273,11 +272,13 @@ ul {
 
 .card {
     color: #fff;
-    width: 100%;
+    width: 30%;
     border-radius: 10px;
     background-color: rgba(0,0,0,.255);
     border: none;
     border: 1px solid rgba(0,0,0,.75);
+    margin-top:8%;
+    margin-left:-75%;
 }
 
 
@@ -336,7 +337,7 @@ ul {
         z-index: -1;
         bottom: 0;
         left: 0;
-        height: 1px;
+        height: 0px;
         width: 100%;
         background-color: rgba(0,0,0,.5);
         
