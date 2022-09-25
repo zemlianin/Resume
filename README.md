@@ -8,7 +8,8 @@ values in css and html script, which get right elements position on A4 size
 * PDF Version 
   1. Open WS Studio
   2. Run project
-  3. Download .pdf file 
+  3. Click Ctrl+P
+  4. Download .pdf file 
 * Browser Version
   1. Download image from [dockerhub](https://hub.docker.com/r/zemlianin334/resume_csh)
   2. Run docker
