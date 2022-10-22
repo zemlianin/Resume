@@ -18,3 +18,5 @@ values in css and html script, which get right elements position on A4 size
  * [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
  * [docker](https://www.docker.com/)
  * [bootstrap](https://getbootstrap.com/)
+ * [Razor](https://learn.microsoft.com/ru-ru/aspnet/core/mvc/views/razor?view=aspnetcore-6.0)
+ * html + css
